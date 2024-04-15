@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andalucia</title>
+    <link rel="shortcut icon" href="favicon.svg" type="image/x-icon">
+
+    <style>
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #04AA6D;
+        }
+
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            color: #92a4ff;
+        }
+
+        div.gallery {
+            margin: 5px;
+            border: 1px solid #ccc;
+            float: left;
+            width: 33vw;
+        }
+
+        div.gallery:hover {
+            border: 1px solid #777;
+        }
+
+        div.gallery img {
+            width: 100%;
+            height: auto;
+        }
+
+        div.desc {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .centrado {
+            display: flex;
+            justify-content: center;
+        }
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>AUDIOVISUALES</h1>
+        <nav>
+            <ul>
+          <li> <a href="index.html">Home</a></li> 
+          <li>  <a href="preferencias.html">Preferencias</a></li>
+          <li> <a class="active"  href="audiovisiuales.html">Audiovisuales</a></li>
+          <li>  <a href="contacto.html">Contacto</a></li>
+        </ul>
+        </nav>
+
+        <div class="centrado">
+        <iframe  class="centrado"   width="560" height="315" src="https://www.youtube.com/embed/YFXW44AG3xk?si=usifanTDvrj8xYmN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <br>
+        <div class="centrado">
+            <h3>Himno Andalucia: </h3>
+       <audio class="centrado" controls autoplay  src="/assets/audio/himnoandalucia-canalcomunidad-ivoox636399.mp3"></audio>
+    </div>
+    <br>
+
+       <section class="centrado" >
+
+        <div class="gallery">
+            <a href="/assets/imgs/banderaAndalucia.svg" target="_blank"> <img src="/assets/imgs/banderaAndalucia.svg" alt="bandera" width="400px "  height="200px"></a>
+          
+            <div  class="desc">Bandera Andalucia</div>
+        </div>
+
+        <div class="gallery">
+            <a href="/assets/imgs/escudo.png" target="_blank"> <img src="/assets/imgs/escudo.png" alt="bandera" width="400px "  height="200px"></a>
+           
+            <div class="desc">Escudo Andalucia</div>
+        </div>
+
+        <div class="gallery">
+            <a href="/assets/imgs/mapaAndalucia.png" target="_blank"> <img src="/assets/imgs/mapaAndalucia.png" alt="bandera" width="400px "  height="200px"></a>
+            <div class="desc">Mapa Andalucia</div>
+        </div>
+       </section>
+       
+        
+      
+    
+        <footer class="footer">
+            <p>Derechos reservados &copy; 2024</p>
+        </footer>
+    </header>
+</body>
+</html>
